@@ -10,6 +10,9 @@ temp_extract/
 *.csv
 *.xlsx
 *.png
+!docs/
+!docs/images/
+!docs/images/*.png
 
 # Downloaded/classified strategy data
 Strategies/
