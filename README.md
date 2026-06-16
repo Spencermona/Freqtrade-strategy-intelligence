@@ -30,11 +30,11 @@ The project is designed to run locally with Docker. Users do not need to install
 
 ## Requirements
 
-- Docker Desktop
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - An OpenAI API key
 - A terminal
 
-VS Code is optional. If you already use VS Code, its built-in terminal works perfectly. If not, Windows Terminal, PowerShell, macOS Terminal, or any normal shell is enough.
+[VS Code](https://code.visualstudio.com/download) is optional. If you already use VS Code, its built-in terminal works perfectly. If not, Windows Terminal, PowerShell, macOS Terminal, or any normal shell is enough.
 
 ## Quick Start
 
@@ -157,11 +157,11 @@ Freqtrade Strategy Intelligence 可以在本地网页中运行完整分析流程
 
 ## 需要准备什么
 
-- Docker Desktop
+- [Docker Desktop](https://www.docker.com/products/docker-desktop/)
 - OpenAI API Key
 - 一个终端
 
-VS Code 不是必须的。你可以用 VS Code Terminal，也可以直接用 Windows Terminal、PowerShell、macOS Terminal 或其他普通终端。
+[VS Code](https://code.visualstudio.com/download) 不是必须的。你可以用 VS Code Terminal，也可以直接用 Windows Terminal、PowerShell、macOS Terminal 或其他普通终端。
 
 ## 快速开始
 
