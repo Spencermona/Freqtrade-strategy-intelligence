@@ -122,20 +122,6 @@ Docker Compose mounts these folders into the container:
 
 These folders are local working data and are ignored by Git.
 
-## API Key Safety
-
-Your API key is saved locally in:
-
-```text
-config/app_config.json
-```
-
-This file is ignored by Git and should not be committed. The repository only includes:
-
-```text
-config/app_config.example.json
-```
-
 ## Command Line Usage
 
 Docker is recommended for most users. If you prefer running scripts directly, use:
@@ -262,20 +248,6 @@ Docker Compose 会挂载这些本地文件夹：
 | `strategies_error/` | 解析失败的策略 |
 
 这些都是本地工作数据，不会提交到 Git。
-
-## API Key 安全
-
-你的 API Key 会保存在本地：
-
-```text
-config/app_config.json
-```
-
-这个文件已经被 `.gitignore` 忽略，不应该提交到 GitHub。仓库里只包含：
-
-```text
-config/app_config.example.json
-```
 
 ## 免责声明
 
