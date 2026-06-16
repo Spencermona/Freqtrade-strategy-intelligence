@@ -1,0 +1,8 @@
+pandas
+numpy
+matplotlib
+openpyxl
+openai
+python-dotenv
+requests
+tqdm

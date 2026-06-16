@@ -1,0 +1,39 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+config/app_config.json
+
+# Generated outputs
+results/
+temp_extract/
+*.csv
+*.xlsx
+*.png
+
+# Downloaded/classified strategy data
+Strategies/
+short_timeframe_strategies/
+strategies_too_large/
+strategies_error/
+
+# Local experiments and IDE files
+*.ipynb
+.ipynb_checkpoints/
+.idea/
+.vscode/
+.github/
+
+# Python/cache/build artifacts
+.venv/
+.venv-run/
+.uv-cache/
+.mpl-cache/
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+
+# OS noise
+.DS_Store
+Thumbs.db

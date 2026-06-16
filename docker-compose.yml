@@ -1,0 +1,15 @@
+services:
+  strategy-intelligence:
+    build: .
+    ports:
+      - "7860:7860"
+    volumes:
+      - ./config:/app/config
+      - ./results:/app/results
+      - ./Strategies:/app/Strategies
+      - ./short_timeframe_strategies:/app/short_timeframe_strategies
+      - ./strategies_too_large:/app/strategies_too_large
+      - ./strategies_error:/app/strategies_error
+    environment:
+      - PORT=7860
+      - HOST=0.0.0.0
