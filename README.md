@@ -10,6 +10,24 @@ Freqtrade Strategy Intelligence is a local web console for screening Freqtrade t
 
 The project is designed to run locally with Docker. Users do not need to install Python or open the source code to use the web interface.
 
+## UI Preview
+
+### Full Console
+
+![Full Freqtrade Strategy Intelligence console](docs/images/web-console-full.png)
+
+### Strategy Ranking
+
+![Strategy ranking preview](docs/images/ranking-preview.png)
+
+### Analysis Summary
+
+![Strategy summary preview](docs/images/summary-preview.png)
+
+### Dashboard Preview
+
+![Dashboard preview](docs/images/dashboard-preview.png)
+
 ## Requirements
 
 - Docker Desktop
