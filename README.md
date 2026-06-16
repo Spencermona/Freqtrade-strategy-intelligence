@@ -31,10 +31,19 @@ The project is designed to run locally with Docker. Users do not need to install
 ## Requirements
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- An OpenAI API key
+- An [OpenAI API key](https://platform.openai.com/api-keys)
 - A terminal
 
 [VS Code](https://code.visualstudio.com/download) is optional. If you already use VS Code, its built-in terminal works perfectly. If not, Windows Terminal, PowerShell, macOS Terminal, or any normal shell is enough.
+
+## Get an OpenAI API Key
+
+1. Go to the [OpenAI API Keys page](https://platform.openai.com/api-keys).
+2. Sign in or create an OpenAI Platform account.
+3. Create a new API key and copy it.
+4. Paste the key into the web console after starting this project.
+
+The API key is for the OpenAI Platform API. A ChatGPT subscription is separate from API usage. See the official [OpenAI API quickstart](https://developers.openai.com/api/docs/quickstart) for more details.
 
 ## Quick Start
 
@@ -158,10 +167,19 @@ Freqtrade Strategy Intelligence 可以在本地网页中运行完整分析流程
 ## 需要准备什么
 
 - [Docker Desktop](https://www.docker.com/products/docker-desktop/)
-- OpenAI API Key
+- [OpenAI API Key](https://platform.openai.com/api-keys)
 - 一个终端
 
 [VS Code](https://code.visualstudio.com/download) 不是必须的。你可以用 VS Code Terminal，也可以直接用 Windows Terminal、PowerShell、macOS Terminal 或其他普通终端。
+
+## 获取 OpenAI API Key
+
+1. 打开 [OpenAI API Keys 页面](https://platform.openai.com/api-keys)。
+2. 登录或注册 OpenAI Platform 账号。
+3. 创建一个新的 API Key，并复制它。
+4. 启动本项目后，把 API Key 填到网页控制台里。
+
+这里需要的是 OpenAI Platform 的 API Key。ChatGPT 订阅和 API 使用是分开的。更多说明可以参考官方 [OpenAI API Quickstart](https://developers.openai.com/api/docs/quickstart)。
 
 ## 快速开始
 
