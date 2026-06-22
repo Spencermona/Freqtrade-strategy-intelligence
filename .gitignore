@@ -25,7 +25,9 @@ strategies_error/
 .ipynb_checkpoints/
 .idea/
 .vscode/
-.github/
+# NOTE: .github/ is intentionally tracked so the weekly GitHub Actions workflow can run.
+# Local strategy source downloaded from strat.ninja (regenerated each run)
+strat_ninja_strategies/
 
 # Python/cache/build artifacts
 .venv/

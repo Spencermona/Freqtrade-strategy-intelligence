@@ -1,0 +1,29 @@
+name: ETH Pair Scan
+# NOTE: daily schedule disabled — this job runs statistic_analysis.ipynb, which no longer
+# exists in the repo, so the scheduled run failed every day. Re-enable / replace with the
+# weekly strat.ninja pipeline once it is built. Manual trigger only for now.
+on:
+  workflow_dispatch: {}
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: Execute notebook
+        run: |
+          pip install papermill jupyter
+          papermill "statistic_analysis.ipynb" "statistic_analysis_out.ipynb"
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: results
+          path: |
+            statistic_analysis_out.ipynb
+            pair_scan_results_*.csv
